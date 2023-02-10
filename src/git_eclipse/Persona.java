@@ -106,4 +106,14 @@ public class Persona {
 		+ "Peso: " + peso + " kg\n"
 		+ "Altura: " + altura + " metros\n";
 	}
+
+	/* creo el metodo para comprobar si una persona es mayor de edad*/
+	public boolean esMayorDeEdad ()
+	{
+		if ( edad>18) 
+			return true;
+		else 
+			return false;
+		
+	}
 }
