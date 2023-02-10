@@ -40,6 +40,12 @@ public class PersonaAPP_Scanner {
 		System.out.println("Persona2");
 		MuestraMensajePeso(persona2);
 		System.out.println(persona2.toString());
+		boolean mayorDeEdad = persona1.esMayorDeEdad();
+		if(mayorDeEdad == true)
+			System.out.println("el usuario es mayor de edad");
+		else
+			System.out.println("el usuario es menor de edad");
+		
 
 
 
