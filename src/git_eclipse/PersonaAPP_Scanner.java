@@ -1,8 +1,4 @@
 package git_eclipse;
-
-
-
-
 import java.util.Locale;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
@@ -41,12 +37,12 @@ public class PersonaAPP_Scanner {
 		MuestraMensajePeso(persona2);
 		System.out.println(persona2.toString());
 
-
-
-
 		System.out.println("Persona3");
 		MuestraMensajePeso(persona3);
 		System.out.println(persona3.toString());
+		
+		System.out.println("persona 3 es mayor de edad=" + persona3.esMayorDeEdad());
+		
 	}
 	public static void MuestraMensajePeso(Persona p) {
 		int IMC = p.calcularIMC();
